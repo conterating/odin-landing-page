@@ -1,3 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+nav h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links,
+nav h2 {
+  padding: 16px 10%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.hero {
+  background-color: #1f2937;
 }
