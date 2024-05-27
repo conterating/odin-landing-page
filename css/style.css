@@ -31,9 +31,32 @@ nav {
   align-items: center;
 }
 
-.nav-links,
-nav h2 {
-  padding: 16px 10%;
+button {
+  display: block;
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: left;
+  float: left;
+}
+
+.hero-image {
+  width: 450px;
+  height: 200px;
 }
 
 .nav-links {
@@ -44,4 +67,8 @@ nav h2 {
 
 .hero {
   background-color: #1f2937;
+}
+
+.hero {
+  padding: 16px 10%;
 }
