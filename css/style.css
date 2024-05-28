@@ -47,30 +47,37 @@ nav {
 
 .hero-content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
+  flex-direction: row;
+  gap: 32px;
+  padding: 64px 0;
 }
 
-.hero-content h1 {
+.hero-image {
+  width: 479px;
+  height: 200px;
+}
+
+.hero-header {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: bolder;
   color: #f9faf8;
 }
 
-.hero-content img {
-  width: 550px;
-  height: 244px;
-}
-
-.hero-content button {
-  width: 97px;
-  height: 22px;
-  /* finish styling button after aliging hero properly */
-}
-
-.hero-content p {
+.hero-description {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero-button {
+  margin-top: 6px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.hero-group {
+  align-self: center;
 }
