@@ -90,7 +90,7 @@ nav {
   gap: 48px;
   padding: 20px;
   margin: 12px;
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .random-header {
@@ -113,4 +113,25 @@ nav {
   width: 125px;
   height: 125px;
   border-radius: 10px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 8% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
 }
