@@ -135,3 +135,9 @@ nav {
   align-self: flex-end;
   font-weight: bold;
 }
+
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
